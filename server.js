@@ -12,6 +12,10 @@ app.listen(PORT, console.log(`listening on port ${PORT}`))
 connectDB();
 
 
+// init middleware
+app.use(express.json({ extended: false }))
+
+
 
 // define routes
 app.use('/api/users', require('./routes/users'))
