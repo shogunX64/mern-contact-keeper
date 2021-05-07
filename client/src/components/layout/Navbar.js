@@ -24,7 +24,7 @@ const Navbar = ({title, icon}) => {
 
 Navbar.porpTypes = {
     title: PropTypes.string.isRequired,
-    icon:PropTypes.string,
+    icon:PropTypes.string, 
 }
 Navbar.defaultProps = {
     title: 'Contact Keeper',
